@@ -117,21 +117,18 @@ footer {
   text-align: center;
 }
 
-img {
-  margin-left: 4px;
-  color: #fff;
-  opacity: 1;
+
+
+.social-icon{
+  width: 24px;
+  height: 24px;
 }
 
-.elipse-img {
-  font-size: 30px;
-  width: 80px;
-  height: 80px;
-}
 
-#finger-img {
-  width: 14.17px;
-  height: 20px;
+.social-media-icons{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 @media only screen and (max-width: 700px) {
