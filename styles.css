@@ -39,7 +39,7 @@ header {
   font-size: 18px;
 }
 
-nav{
+nav {
   width: 50px;
   height: 50px;
 }
@@ -52,7 +52,6 @@ nav{
   border-bottom: 1px solid #646369;
   padding-bottom: 30px;
 }
-
 
 h1 {
   text-align: center;
@@ -117,15 +116,12 @@ footer {
   text-align: center;
 }
 
-
-
-.social-icon{
+.social-icon {
   width: 24px;
   height: 24px;
 }
 
-
-.social-media-icons{
+.social-media-icons {
   display: flex;
   justify-content: center;
   gap: 10px;
