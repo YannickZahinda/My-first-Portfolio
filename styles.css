@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #140f5ef5;
+  background-position: center;
+  height: max-content;
+}
+
+.wrapper {
+  background: url("./top\ circles.png") no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+header {
+  color: rgb(238 230 230);
+  display: flex;
+  justify-content: center;
+  margin: 23px;
+}
+
+.my-logo {
+  flex: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 16px;
+}
+
+.my-logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.section-one {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  color: rgb(255 255 255 / 66.4%);
+  border-bottom: 1px solid #646369;
+  padding-bottom: 30px;
+}
+
+.menu-line {
+  width: 25px;
+  height: 2px;
+  margin-bottom: 7px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 43px;
+  letter-spacing: 0.37px;
+  color: #7d73fc;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  text-align: center;
+}
+
+h4 {
+  margin: 15px 0 17px;
+  color: rgb(255 255 255 / 81.5%);
+  text-align: center;
+  font-size: 20px;
+}
+
+h3,
+h2 {
+  color: #9490ff;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+ul li {
+  margin-bottom: 6px;
+  list-style-type: none;
+  font-family:
+    "Lucida Sans",
+    "Lucida Sans Regular",
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    Geneva,
+    Verdana,
+    sans-serif;
+  color: rgb(255 255 255 / 67.1%);
+}
+
+.section-two {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 30px;
+  text-align: center;
+  margin: 40px;
+  border-bottom: 1px solid rgb(80 73 73 / 64.4%);
+  padding-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+}
+
+img {
+  margin-left: 4px;
+  color: #fff;
+  opacity: 1;
+}
+
+.elipse-img {
+  font-size: 30px;
+  width: 80px;
+  height: 80px;
+}
+
+#finger-img {
+  width: 14.17px;
+  height: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .wrapper {
+    width: auto;
+    background-size: contain;
+  }
+}
