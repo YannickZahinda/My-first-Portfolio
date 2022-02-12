@@ -199,8 +199,6 @@ span {
   position: relative;
   width: fit-content;
   color: rgb(255 255 255 / 67.1%);
-
-  /* margin: 40px; */
   padding: 40px;
   background-image: url("./assets/elipse1.png"), url("./assets/elipse2.png");
   background-repeat: no-repeat;
