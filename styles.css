@@ -17,7 +17,7 @@ body {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: calc(40px 2 5) repeat(5, 1fr);
+  grid-template-rows: calc(40) repeat(5, 1fr);
 }
 
 header {
@@ -50,7 +50,7 @@ nav a {
   font-size: 18px;
 }
 
-.section-one {
+.section-one, .section-two {
   display: flex;
   justify-content: center;
   margin: 40px;
@@ -107,7 +107,7 @@ ul li {
   color: rgb(255 255 255 / 67.1%);
 }
 
-.section-two {
+.languages-section {
   justify-content: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -240,9 +240,10 @@ span {
 }
 
 #my-form {
+  margin-top: 25px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 
 #text-input,
