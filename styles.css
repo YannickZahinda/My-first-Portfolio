@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 body {
@@ -17,14 +17,14 @@ body {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: calc(40) repeat(5, 1fr);
+  grid-template-rows: calc(40) repeat(6, 1fr);
 }
 
 header {
   color: rgb(238 230 230);
   display: flex;
   justify-content: center;
-  margin: 23px;
+  margin: 40px;
 }
 
 .my-logo {
@@ -115,12 +115,21 @@ ul li {
   row-gap: 30px;
   text-align: center;
   margin: 40px;
-  border-bottom: 1px solid rgb(80 73 73 / 64.4%);
-  padding-bottom: 30px;
 }
 
 .social-medias {
   text-align: center;
+  color: #7d73fc;
+}
+
+.lanuage-title {
+  color: #7d73fc;
+}
+
+.media1 {
+  padding-top: 30px;
+  border-top: 1px solid rgb(80 73 73 / 64.4%);
+  margin: 40px;
 }
 
 .social-icon {
@@ -143,6 +152,8 @@ ul li {
 /******************** My Projects Style    **************************/
 
 .midle-section {
+  display: grid;
+  grid-template-columns: 1fr;
   margin: 40px;
 }
 
@@ -154,7 +165,7 @@ ul li {
 
 .my-recent-work {
   color: #7d73fc;
-  font-size: 45px;
+  font-size: 40px;
   border-bottom: 1px solid rgb(80 73 73 / 64.4%);
   padding-bottom: 30px;
 }
@@ -174,6 +185,7 @@ span {
 }
 
 .multipost-stories-title {
+  height: max-content;
   color: #fff;
   font-size: 37px;
   margin: 30px 0 50px;
@@ -187,7 +199,11 @@ span {
   position: relative;
   width: fit-content;
   color: rgb(255 255 255 / 67.1%);
-  margin: 40px;
+  padding: 40px;
+  background-image: url("./assets/elipse1.png"), url("./assets/elipse2.png");
+  background-repeat: no-repeat;
+  background-size: 300px, 150px;
+  background-position: 1px top, bottom 250px right;
 }
 
 .build-with {
@@ -201,7 +217,7 @@ span {
 .boostrap,
 .ruby {
   border-right: 1px solid rgb(80 73 73 / 64.4%);
-  padding-right: 15px;
+  padding-right: 10px;
   margin-left: 10px;
 }
 
@@ -254,32 +270,8 @@ span {
   border: none;
 }
 
-/******************** Elipse image position   **************************/
-
-.elipse1-position {
-  position: absolute;
-  top: 200px;
-  margin: -40px;
-  width: 180.61px;
-  height: 400.57px;
-}
-
-.elipse2-position {
-  position: absolute;
-  top: 800px;
-  right: 0%;
-  margin: -40px;
-  width: 180.61px;
-  height: 400.57px;
-}
-
-.elipse3-position {
-  position: absolute;
-  top: 1500px;
-  left: 0%;
-  margin: -40px;
-  width: 300.61px;
-  height: 400.57px;
+.footer-email {
+  margin: 20px 0;
 }
 
 /******************** Media queries    **************************/
