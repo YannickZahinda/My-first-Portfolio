@@ -50,7 +50,8 @@ nav a {
   font-size: 18px;
 }
 
-.section-one, .section-two {
+.section-one,
+.section-two {
   display: flex;
   justify-content: center;
   margin: 40px;
