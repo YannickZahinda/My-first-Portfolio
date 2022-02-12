@@ -1,5 +1,5 @@
 # My-first-Portfolio
-![](https://img.shields.io/badge/Microverse-blueviolet)
+
 
 # Portfolio: setup and mobile version skeleton
 
