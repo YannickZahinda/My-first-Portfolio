@@ -180,7 +180,7 @@ span {
 }
 
 .multipost-story-prgph {
-  height: fit-content;
+  height: max-content;
 }
 
 .my-recent-work-section {
